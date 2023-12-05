@@ -1,0 +1,104 @@
+.VisualContainer {
+    display: flex;
+    flex-direction: row; 
+    height: 75vh; /* Ensure the parent of .VisualContainer has a defined height */
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.VisualContainer .menus {
+    width: 25%;
+    height: 100%; /* This will make the .menus container take up 100% of the .VisualContainer's height */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form-group{
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+.custom-select {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: white;
+    position: relative;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    cursor: pointer;
+}
+
+.custom-select:focus {
+    outline: none;
+    border-color: #a4d9f9;
+}
+
+.custom-select option[value=""][disabled] {
+    color: gray;
+}
+
+.custom-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.visuals {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.visualOne, .visualTwo{
+    height: 80%;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px; /* Rounded corners */
+     /* Adding shadow */
+     box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+
+     /* Optional: Transition for a smooth effect on focus */
+     transition: box-shadow 0.3s ease;
+}
+
+.visualTwo {
+    text-align: center;
+    height: 80%;
+    max-height: 100%; /* Example maximum height in percentage */
+    justify-content: center;
+    align-items: center;
+}
+.averages {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    color: #73c3d0;
+    font-weight: 700;
+}
+
+.chart-container{
+    margin: auto;
+    max-width: 80%;
+    height: auto;
+}
