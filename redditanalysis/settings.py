@@ -29,6 +29,8 @@ ALLOWED_HOSTS = [
 	'cs179g-fall-2023-07.cs.ucr.edu',
     '52.15.40.1',
     'localhost',
+    'https://redditdataanalysis-f3f11bb9f9d7.herokuapp.com/',
+    'redditdataanalysis-f3f11bb9f9d7.herokuapp.com'
 ]
 
 
