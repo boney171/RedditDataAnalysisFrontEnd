@@ -17,6 +17,7 @@ executing==2.0.0
 filelock==3.13.0
 fonttools==4.43.1
 gdown==4.7.1
+gunicorn==21.2.0
 idna==3.4
 ipykernel==6.25.2
 ipython==8.16.1
