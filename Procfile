@@ -1,1 +1,1 @@
-web: gunicorn redditdataanalysis.wsgi
+web: gunicorn redditanalysis.wsgi
